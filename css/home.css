@@ -1,0 +1,85 @@
+/*
+Creator: Daryl del Rosario
+Date Created: Sunday, July 10, 2022 @ 235am
+Most Recent Revision: Wednesday, July 13, 2022 @ 1244am
+*/
+
+body {
+	background-color: #f7e0d4;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+.text-bold {
+	font-weight: bold;
+}
+
+.itemBox {
+	border: thin black solid;
+}
+
+.itemBox:hover {
+	background-color: whitesmoke;
+	cursor: pointer;
+	box-shadow: .11em .11em;
+}
+
+.addMoneyButtons {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 0.43em;
+}
+
+.toggleButton, .purchaseDiv, .changeDiv {
+	display: grid;
+	padding: 0.43em;
+}
+
+.operationHeadRuler {
+	margin-top: 0.77em;
+	border: 1px black solid;
+}
+
+#header {
+	padding-top: 10px;
+}
+
+#itemWrapper {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-rows: 200px;
+	gap: 1.43em;
+}
+
+#itemId {
+	margin-bottom: 0.22em;
+	padding: 0.43em;
+}
+
+#itemName, #itemPrice, #itemQuantity {
+	text-align: center;
+	margin-bottom: 0.12em;
+}
+
+#itemName {
+	height: 50px;
+}
+
+#itemQuantity {
+	margin-top: 1.43em;
+}
+
+#displayInputMoney {
+	width: 70%;
+	margin: auto;
+}
+
+#inputMoney, #inputItem, #displayMessage, #displayChange {
+	text-align: center;
+}
+
+#itemLabel {
+	font-weight: bold;
+}
